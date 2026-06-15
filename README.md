@@ -19,12 +19,14 @@ claim that big tile; win three big tiles in a row to win the whole game.
 |------|------------|
 | `ultimate_tictactoe.py` | The game engine. Pure logic, no UI. **This is the core.** |
 | `play.py` | A throwaway terminal version so you can play right now. |
+| `gui.py` | A simple Tkinter GUI — click tiles to play. |
 | `test_ultimate_tictactoe.py` | Tests for the engine. |
 
 ## Try it
 
 ```bash
 python play.py                              # play in the terminal
+python gui.py                               # play in a GUI window
 python -m unittest test_ultimate_tictactoe  # run the tests
 ```
 
